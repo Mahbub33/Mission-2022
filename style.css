@@ -1,97 +1,175 @@
 body {
-	font-family: 'Poppins', sans-serif;
     margin: 0;
-/*    border: 2px solid green;*/
-/*    background-image: url(images/snowflakes.png);*/
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-
-h1 {
-    font-size: 3em;
-}
-h2 {
-    font-size: 3em;
-}
-.colored-name {
-    color: orange;
-}
-
-.flexible-section1 {
+.section-1 {
     display: flex;
-/*    border: 2px solid blue;*/
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
- }
-.flexible-box1-div {
-    /*margin-left: 25px;*/
+    margin: 20px 150px;
+}
+.intro-header {
+    padding: 0px 20px;
+    border-left: 5px solid #EA4335;
+    font-size: 3.5em;
+}
+.box-1 {
+    width:50%;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.box-2 {
     width: 50%;
-/*    border: 2px solid red;*/
-    margin: 0px 50px;
+}
+.box-2 img{
+    width: 90%;
+    height: auto;
+    padding-left: 50px;
+}
+.colored-text{
+    color: #EA4335;
+}
+.anchor {
+    color: white;
+    text-decoration: none;
+    background-color:#34A853;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/***   Section 2   ***/
+.section-2 {
+    margin: 100px 150px;
+}
+.section-2 h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight:600;
+}
+.section-2 h3 {
+    font-size: 1.em
+}
+.mission-box{
+    display: flex;
+}
+.box-size {
+    height: 100px;
+    width:100px;
+}
+.box-3{
+    background-color: #f7cac9;
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.box-4{
+    background-color: #cfe0e8;
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.box-5{
+    background-color: #d5f4e6;
+    height: auto;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.box-3 img {
+    width:50%;
+    height: auto;
+}
+.box-4 img {
+    width:50%;
+    height: auto;
 }
 
-.flexible-box1-div img{
+.box-5 img {
+    width:50%;
+    height: auto;
+}
+
+/*** Section 3 ***/
+
+.section-3 {
+
+    display: flex;
+    margin: 20px 150px;
+}
+.box-6 {
+
+    width: 40%;
+    height: auto;
+}
+
+.box-7 {
+
+    height: auto;
+    width:60%;
+    padding: 50px 50px;
+}
+
+.box-6 img{
+    width: 100%;
+    height: auto;
+}
+.anchor {
+    color: white;
+    text-decoration: none;
+    background-color:#34A853;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.section-3 h3{
+    font-size: 1.6em;
+}
+/*    section-4    */
+
+.section-4 {
+    display: flex;
+    margin: 100px 150px
+}
+.box-8 {
+    width: 60%;
+    height: auto;
+    padding: 50px 50px;
+}
+.section-4 h3 {
+    font-size: 1.6em;
+}
+.box-9 {
+    width: 40%;
+    height: auto;
+}
+
+.box-9 img {
+    width:100%;
+    height: auto;
+}
+.section-5{
+    text-decoration: none;
+    background-color:#cfe0e8;
+    text-align: center;
+    height: 150px;
+    width: auto;
+    display: flex;
+}
+.section-5 div a{
+    text-decoration: none;
+}
+.section-5 div{
     width:100%;
     height: auto;
 }
 
-
-.flexible-section2{
-/*    border: 2px solid green;*/
-    display: flex;
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.dream-box1 {
-/*    border: 2px solid red;*/
-    width: 50%;
-    margin: 50px;
-}
-
-.flexible-section2 img {
-    width: 100%;
-    height: 0 auto;
-}
-/*
-.hire {
-    background-image: linear-gradient(to right red, green, yellow);
-    font-weight: 600;
-    border: 2px solid orange;
-    padding: 2px 10px;
-    border-radius: 3px;
-}*/
-.clickable {
-    text-decoration: none;
-    padding: 2px 20px;
-    background: linear-gradient(to right, #ffb88c, #de6262);
-    border-radius: 4px;
-    color: white;
-    font-weight: 600;
-}
-.experience-section {
-    background-image:url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-bottom: 150px;
-}
-
-.exp-boxes{
-    display: flex;
-    margin: 50px;
-}
-.exp-period {
-    color: orange;
-}
-
-.exp-box{
-    padding: 10px;
-    text-align: justify;
-    border-left: 5px solid #F10D58;
-    box-shadow: 5px 5px 7px gray;
-    margin: 0px 20px;
-    border-radius: 3px;
-}
-
 footer {
+    padding: 25px 0; 
+    background-color: black;
+    color: white;
     text-align: center;
+}
+footer h1 span {
+    color: crimson;
 }
